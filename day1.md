@@ -1,5 +1,6 @@
 # QA Fundamentals 
  - **What is QA, QC, and software testing?**
+   
  | Aspect             | Quality Assurance (QA)                           | Quality Control (QC)                | Software Testing                        |
 | ------------------ | ------------------------------------------------ | ----------------------------------- | --------------------------------------- |
 | Primary Goal       | Prevent defects                                  | Detect defects                      | Find bugs and verify software behavior  |
