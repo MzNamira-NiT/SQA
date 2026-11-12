@@ -1,5 +1,5 @@
 # QA Fundamentals 
- - **What is QA, QC, and software testing?**
+ ### **What is QA, QC, and software testing?**
    
  | Aspect             | Quality Assurance (QA)                           | Quality Control (QC)                | Software Testing                        |
 | ------------------ | ------------------------------------------------ | ----------------------------------- | --------------------------------------- |
@@ -65,3 +65,38 @@ STLC is a systematic sequence of activities executed by the quality assurance (Q
 - Test Environment Setup: Configuring the hardware, software, and test data needed to simulate real-world usage.
 - Test Execution: Running the test cases, logging bugs, and reporting defects to developers.
 - Test Cycle Closure: Evaluating test coverage, summarizing results, and conducting sign-offs.
+
+
+
+### Testing principles and testing levels
+
+**The 7 Principles of Software Testing (ISTQB)** :
+
+According to the ISTQB Foundation Level Principles, software testing is guided by seven fundamental principles:
+1. Testing shows defect presence, not absence: Testing can prove that defects exist, but it cannot prove that zero defects remain.
+2. Exhaustive testing is impossible: Testing every single input combination, path, and pre-condition is unfeasible for anything beyond trivial code; use risk analysis and prioritization instead.
+3. Early testing saves time and money: Starting static reviews and dynamic tests early in the software development lifecycle ("shift left") catches expensive flaws sooner.
+4. Defects cluster together: A small number of modules or components usually hold most of the system defects (applying the Pareto 80/20 rule).
+5. Pesticide paradox: Repeating the exact same test suite over and over eventually stops finding new bugs; test cases must be regularly reviewed and updated.
+6. Testing is context-dependent: Testing approaches vary depending on the nature of the application (e.g., medical software vs. an e-commerce website).
+7. Absence-of-errors is a fallacy: Fixing all found bugs does not guarantee a usable or successful system if the software fails to meet user business needs.
+
+**The 4 Levels of Software Testing** :
+
+Testing levels define the sequential stages in the Software Development Life Cycle (SDLC) where specific verification tasks take place, moving from isolated components to the whole application:
+1. Unit Testing
+	- Scope: Individual code units, functions, or classes.
+	- Who performs it: Developers.
+	- Goal: Verify that each small, isolated piece of logic works as expected.
+2. Integration Testing
+	- Scope: Combined modules, interfaces, and data flow between components.
+	- Who performs it: Developers or testers.
+	- Goal: Detect interface defects and communication errors when individual units work together.
+3. System Testing
+	- Scope: The complete, integrated software product as a whole in an environment mirroring production.
+	- Who performs it: Independent quality assurance (QA) or professional testers.
+	- Goal: Verify both functional and non-functional requirements (performance, security, usability) across the entire system.
+4. Acceptance Testing
+	- Scope: Complete end-to-end business workflows and user scenarios.
+	- Who performs it: Customers, end users, or product stakeholders.
+	- Goal: Confirm that the software satisfies business requirements and is ready for real-world release.
