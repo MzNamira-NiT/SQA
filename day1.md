@@ -29,12 +29,15 @@
 
 
 
-Feature	SDLC (Software Development Life Cycle)	STLC (Software Testing Life Cycle)
-Scope	Covers the complete end-to-end journey of software development.	A focused subset dedicated strictly to testing and validation.
-Primary Goal	To build and deploy a working software product.	To verify quality, find bugs, and ensure reliability.
-Primary Team	Developers, product owners, architects, and managers.	QA engineers, testers, and test leads.
-Team Size	Typically requires a larger overall team.	Typically handled by a smaller, specialized QA team.
-Relationship	The overarching framework for software development.	Integrated directly into SDLC as its quality assurance component.
+### SDLC vs. STLC
+
+| Feature      | SDLC (Software Development Life Cycle)                          | STLC (Software Testing Life Cycle)                                |
+| ------------ | --------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Scope        | Covers the complete end-to-end journey of software development. | A focused subset dedicated strictly to testing and validation.    |
+| Primary Goal | To build and deploy a working software product.                 | To verify quality, find bugs, and ensure reliability.             |
+| Primary Team | Developers, product owners, architects, and managers.           | QA engineers, testers, and test leads.                            |
+| Team Size    | Typically requires a larger overall team.                       | Typically handled by a smaller, specialized QA team.              |
+| Relationship | The overarching framework for software development.             | Integrated directly into SDLC as its quality assurance component. |
 
 
 ### What is SDLC? (Software Development Life Cycle)
