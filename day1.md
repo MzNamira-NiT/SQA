@@ -100,3 +100,26 @@ Testing levels define the sequential stages in the Software Development Life Cyc
 	- Scope: Complete end-to-end business workflows and user scenarios.
 	- Who performs it: Customers, end users, or product stakeholders.
 	- Goal: Confirm that the software satisfies business requirements and is ready for real-world release.
+
+### Manual Testing vs. Automation Testing
+
+| Attribute              | Manual Testing                                                        | Automation Testing                                                     |
+| ---------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Execution              | Performed directly by human testers interacting with the application. | Executed by software tools, frameworks, and scripts.                   |
+| Speed                  | Slower; takes hours or days for large test suites.                    | Very fast; runs thousands of checks in minutes.                        |
+| Setup & Maintenance    | Low initial setup cost, but high ongoing labor cost per run.          | High upfront setup cost, but low execution cost at scale.              |
+| Accuracy & Consistency | Prone to human error and fatigue during repetitive tasks.             | Highly consistent and accurate when running predefined steps.          |
+| Flexibility            | High; testers can adapt on the fly and notice subtle UI flaws.        | Low; scripts only check what they are explicitly programmed to verify. |
+| Best Use Cases         | Exploratory, usability, ad-hoc, and early-stage feature testing.      | Regression, smoke, load/performance testing, and CI/CD pipelines.      |
+
+
+
+### Functional Testing vs. Non-Functional Testing
+
+| Basis           | Functional Testing                                                                    | Non-Functional Testing                                                                  |
+| --------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Core Question   | "Does the feature work?" (Pass/Fail)                                                  | "How well does the system work?" (Measured metrics)                                     |
+| Focus           | Features, business logic, inputs, and outputs.                                        | Performance, security, usability, reliability, and scalability.                         |
+| Based On        | Functional requirements.                                                              | Non-functional requirements (quality attributes).                                       |
+| Common Examples | Unit testing, integration testing, system testing, regression testing, smoke testing. | Performance testing, load testing, stress testing, security testing, usability testing. |
+| Execution       | Often done earlier in the cycle; can be manual or automated.                          | Usually done after core features work; heavily relies on automation tools.              |
